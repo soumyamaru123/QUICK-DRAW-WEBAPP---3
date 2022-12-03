@@ -1,0 +1,50 @@
+body{
+    background-color: greenyellow;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    background-color: cornsilk;
+    color: #040404;
+    background-color: rgb(247, 251, 7);
+}
+
+#show_sketch{
+    float:right;
+
+}
+
+#score{
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left:5px;
+ 
+}
+
+#timer{
+    float:right;
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left:5px;
+ 
+
+}
+
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow:1px 1px 38px aqua;}
+    to {box-shadow:1px 1px 38px palevioletred;}
+}
+
+p{
+    padding-top:10px;
+    font-size:25px;
+}
